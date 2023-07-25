@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Typing Speed Test Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="game">
+            <div class="name">Typing Speed Test Game
+                <button class="change1">Change to dark mode</button>
+                <button class="change2">Change to light mode</button>
+            </div>
+            <div class="container">
+                <div class="message">
+                    <select class="choose">
+                        <option value=""">&nbsp;--&nbsp;Choose level&nbsp;--&nbsp;</option>
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>You will have up tp&nbsp;<span class="seconds">...</span>&nbsp;seconds to type the word required which will be&nbsp;<span class="len">...</span>
+                </div>
+                <div class="message2">You are playing on&nbsp;<span class="lvl">...</span>&nbsp;level and you have up to&nbsp;<span class="seconds">...</span>&nbsp;seconds to type the word</div>
+                <div class="start">Start</div>
+                <div class="the-word"><span>The word will appear here</span></div>
+                <input type="text" class="input" placeholder="You will be able to write the word here (respect lowercase/uppercase letters)"/>
+                <div class="upcoming-words">Upcoming words will appear here</div>
+                <div class="control">
+                    <div class="time">Time left: <span>...</span> seconds</div>
+                    <div class="score">Current score: <span class="got">0</span> of <span class="total">10</span>
+                        <div>(<span class="last">...</span> level was chosen)</div>
+                    </div>
+                    <div class="high">Last high score: <span class="loca">0</span> of <span class="total">10</span>
+                        <div class="loca2">(<span class="loca3">fdgev</span> level was chosen)</div>
+                        <button class="del">Reset</button>
+                    </div>
+                </div>
+                <div class="finish"></div>
+                <div class="btn">
+                    <button class="give">Give up</button>
+                    <button class="back">Back to the main page</button>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

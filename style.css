@@ -1,0 +1,289 @@
+:root {
+    --main-color: rgb(120, 94, 235)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Comic Sans MS"
+}
+
+.game {
+    min-height: 100vh;
+    background-color: rgb(219, 219, 219)
+}
+
+.name {
+    padding: 15px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center
+}
+
+.change1, .change2 {
+    margin: 10px auto 0 auto;
+    padding: 3px 5px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    font-family: "Comic Sans MS";
+    cursor: pointer;
+    display: block;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.change1:hover, .change2:hover {
+    background-color: rgb(75, 75, 75)
+}
+
+.change2 {
+    display: none
+}
+
+.container {
+    max-width: 900px;
+    margin: auto
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.choose {
+    margin-right: 40px;
+    padding: 2px 5px;
+    font-size: 17px;
+    font-family: "Comic Sans MS";
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.message span {
+    color: #009688;
+    font-weight: bold
+}
+
+.message2 { 
+    height: 66px;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: white;
+    font-size: 17px;
+    text-align: center;
+    display: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.message2 span {
+    color: #009688;
+    font-weight: bold
+}
+
+.start {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #009688;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.start:hover {
+    background-color: #007f73
+}
+
+.the-word {
+    height: 65px;
+    padding-bottom: 8px;
+    background-color: white;
+    color: var(--main-color);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.the-word span {
+    color: black;
+    font-size: 18px;
+    font-weight: 100
+}
+
+.input {
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    caret-color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.input:focus {
+    outline: none;
+    border-width: 4px
+}
+
+.upcoming-words {
+    margin: 10px 0 0 0;
+    padding: 10px;
+    background-color: white;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.upcoming-words div {
+    margin: 4px;
+    padding: 10px;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.control {
+    margin: 10px 0 0 0;
+    padding: 10px;
+    background-color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.time, .score, .high {
+    margin: 0 55px;
+    text-align: center
+}
+
+.control span {
+    color: #009688;
+    font-weight: bold
+}
+
+.loca2 {
+    display: none
+}
+
+.del {
+    margin: auto;
+    padding: 2px 5px;
+    background-color: red;
+    color: white;
+    font-family: "Comic Sans MS";
+    cursor: pointer;
+    display: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.finish {
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center
+}
+
+.finish .good {
+    color: blue
+}
+
+.finish .bad {
+    color: red
+}
+
+.btn {
+    display: flex;
+    justify-content: end
+}
+
+.give, .back {
+    margin-top: -20px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-family: "Comic Sans MS";
+    cursor: pointer;
+    display: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.back {
+    margin-top: 0
+}
+
+.give:hover, .back:hover {
+    background-color: rgb(203, 2, 2)
+}
